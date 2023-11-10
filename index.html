@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ella Raputri's Portfolio</title>
+    <title>Synx Pro</title>
     <link rel="stylesheet" href="styles.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
 </head>
-<body>
-  <div class="header">
-    <nav class="navbar navbar-light bg-ligt">
-      <h1 class="navbar-brand">
-        <img src='propic.png'width="50px" height="50px"><strong> Ella Raputri</strong>
-      </h1>
-      <div class="d-flex">
-        <button type="button" class="btn bg-white" data-bs-toggle="popover" title="My Gmail" data-bs-content="ellaraputri@gmail.com">
-        <img src="gmail.png" alt="gmail" width="30px"> Email
-        </button>
-      </div>
-    </nav>
-  </div>
-    
+
+<body>    
   <div class="topnav">
-    <nav class="navbar navbar-expand-lg pink">
-      <div class="container-fluid fw-bold">
-        <a class="navbar-brand text-uppercase" href="#">My portfolio</a>
+    <nav class="navbar navbar-expand-lg tosca fixed-top">
+      <div class="container-fluid fw-bold tata">
+        <a class="navbar-brand text-uppercase" href="index.html">
+          <img height='50px' src="logo_synx_pro.png" alt="Synx Pro"/>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,140 +31,251 @@
               <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="index_about.html"> About Me</a>
+              <a class="nav-link text-white" href="index_about.html">Syntax Comparison</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index_edu.html"> Education</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown">Function Dictionary</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">C</a></li>
+                <li><a class="dropdown-item" href="#">C++</a></li>
+                <li><a class="dropdown-item" href="#">Python</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index_exp.html"> Experience</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown">Tips and Trick</a>
+              <ul class="dropdown-menu tosca-hover">
+                <li><a class="dropdown-item" href="#">C</a></li>
+                <li><a class="dropdown-item" href="#">C++</a></li>
+                <li><a class="dropdown-item" href="#">Python</a></li>
+              </ul>
             </li>
-              
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white dropdown-toggle" role="button" data-bs-toggle="dropdown">FAQ</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">C</a></li>
+                <li><a class="dropdown-item" href="#">C++</a></li>
+                <li><a class="dropdown-item" href="#">Python</a></li>
+              </ul>
+            </li>             
           </ul>
         </div>
       </div>
     </nav>
-    <br/>
   </div>
     
-  <div class="body">
-    <div class="container-fluid content11">
-      <div class="text-center">
-        <pre></pre>
-      <img class=' img-fluid'src="Ella.png" alt="Ella">
-  
-        <br/><br/>
-        <h2>Hi! <br/>I am ELLA RAPUTRI.</h2>
-        <h3>And I am a freshman at Binus International.</h3>
-        <h3 id="kelas"> ID 2702298154 - Class L1AC</h3>
 
-        <div class="lead">
-          <label for="gender" class="lead">Gender</label>
-          <input id='gender' type="radio" name="genders" value="male"/>Male
-          <input type="radio" name="genders" value="female" checked/> Female
+  <pre></pre><pre></pre><pre></pre>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      </div>
+
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="Slide1.PNG" alt="Welcome to Synx Pro" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="Slide2.PNG" alt="Syntax Comparison" class="d-block w-100">
+              <div class="carousel-caption">
+                  <h1 class="text-white bg-plblack">Syntax Comparison</h1>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="slide(3).PNG" alt="Function Dictionary" class="d-block w-100">
+              <div class="carousel-caption">
+                  <h1 class="text-white bg-plblack">Function Dictionary</h1>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="Slide4.PNG" alt="Tips" class="d-block w-100">
+              <div class="carousel-caption">
+                  <h1 class="text-white bg-plblack">Tips and Trick</h1>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="Slide5.PNG" alt="FAQ" class="d-block w-100">
+              <div class="carousel-caption">
+                  <h1 class="text-white bg-plblack">FAQ</h1>
+              </div>
+          </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" ></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+  </div>
+  <br/><br/>
+  
+  <div class="body">
+  <div class="row">
+    <div class="col-md-7">
+      <h2 class="fw-bold   teko">Syntax Comparison</h2>
+      <p >
+        I was born in Batam, Riau Islands on January 23rd 2005. I lived in Batam
+        for 18 years before moved to Jakarta. Batam is a small island compared to
+        Jakarta, but it is famous because of its near distance with Singapore.<br/>
+      </p>         
+    </div>
+    <div class="col-md-5">
+      <img class='img-fluid' src="batam.jpg" alt="batam" width="500px" height="500px"/>
+    </div>
+  </div>
+
+  <pre></pre><pre></pre><pre></pre>
+
+  <h1 class="  text-center">Learn More about Language that We Provide:</h1>
+  <pre></pre>
+
+  <div class="row">
+    <div class="col-md-7 order-md-2 grey">
+      <br/>
+      <h2 class="fw-bold lh-1 teko">My Address</h2>
+      <p class="bigger" >
+        I live in Grogol, West Jakarta now with my sister. My parents are still in Batam.
+       The reason why my family and I chose Grogol as my place of residence now while 
+       my campus is in Senayan is because the location is quite strategic and the living costs
+       are cheaper than in Senayan.
+        
+      </p>
+    </div>
+    <div class="col-md-5 order-md-1 grey">
+      <br/>
+      <img class='img-fluid  ' src="grogol.jpg" alt="grogol" width="500px" height="500px"/>
+    </div>
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-md-4 ">
+      <pre></pre>
+      <img class="img-fluid" src="about_icon.png" alt="about_icon" width="140px" height="140px"/>
+      <h2 class="fw-normal">About Me</h2>
+      <p>Brief description about myself.<br/></p>
+      <p><a class="btn btn-light" href="index_about.html">View Details</a></p>
+    </div>
+    <div class="col-md-4 ">
+      <pre></pre>
+      <img class="img-fluid" src="edu_icon.png" alt="edu_icon" width="140px" height="140px"/>
+      <h2 class="fw-normal">Education</h2>
+      <p>List of school that I have gone.</p>
+      <p><a class="btn btn-light" href="index_edu.html">View Details</a></p>
+    </div>
+    <div class="col-md-4">
+      <pre></pre>
+      <img class="img-fluid" src="exp_icon.png" alt="exp_icon" width="140px" height="140px"/>
+      <h2 class="fw-normal">Experience</h2>
+      <p>My experience in organizations</p>
+      <p><a class="btn btn-light" href="index_exp.html">View Details</a></p>
+    </div>
+  </div>
+
+    <pre></pre><pre></pre>
+    <div class="row text-start">
+      <div class="col-md-7 order-md-2 grey">
+        <br/>
+        <h2 class="fw-bold lh-1 teko">My Address</h2>
+        <p>
+          I live in Grogol, West Jakarta now with my sister. My parents are still in Batam.
+         The reason why my family and I chose Grogol as my place of residence now while 
+         my campus is in Senayan is because the location is quite strategic and the living costs
+         are cheaper than in Senayan.
+          
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1 grey">
+        <br/>
+        <img class='img-fluid  ' src="grogol.jpg" alt="grogol" width="500px" height="500px"/>
+      </div>
+    </div>
+  
+    <div class="row text-center ">
+      <div class="col-md-4">
+        <pre></pre>
+        <img class="img-fluid" src="about_icon.png" alt="about_icon" width="140px" height="140px"/>
+        <h2 class="fw-normal">About Me</h2>
+        <p>Brief description about myself.<br/></p>
+        <p><a class="btn btn-light" href="index_about.html">View Details</a></p>
+      </div>
+      <div class="col-md-4 ">
+        <pre></pre>
+        <img class="img-fluid" src="edu_icon.png" alt="edu_icon" width="140px" height="140px"/>
+        <h2 class="fw-normal">Education</h2>
+        <p>List of school that I have gone.</p>
+        <p><a class="btn btn-light" href="index_edu.html">View Details</a></p>
+      </div>
+      <div class="col-md-4">
+        <pre></pre>
+        <img class="img-fluid" src="exp_icon.png" alt="exp_icon" width="140px" height="140px"/>
+        <h2 class="fw-normal">Experience</h2>
+        <p>My experience in organizations</p>
+        <p><a class="btn btn-light" href="index_exp.html">View Details</a></p>
+      </div>
+    </div>
+
+      <pre></pre><pre></pre>
+      <div class="row">
+        <div class="col-md-7 order-md-2 grey">
+          <br/>
+          <h2 class="fw-bold lh-1 teko">My Address</h2>
+          <p class="bigger" >
+            I live in Grogol, West Jakarta now with my sister. My parents are still in Batam.
+           The reason why my family and I chose Grogol as my place of residence now while 
+           my campus is in Senayan is because the location is quite strategic and the living costs
+           are cheaper than in Senayan.
+            
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1 grey">
+          <br/>
+          <img class='img-fluid  ' src="grogol.jpg" alt="grogol" width="500px" height="500px"/>
         </div>
       </div>
-<br/>
+    
       <div class="row text-center ">
-        <div class="col-md-4 pink">
+        <div class="col-md-4">
           <pre></pre>
           <img class="img-fluid" src="about_icon.png" alt="about_icon" width="140px" height="140px"/>
           <h2 class="fw-normal">About Me</h2>
           <p>Brief description about myself.<br/></p>
           <p><a class="btn btn-light" href="index_about.html">View Details</a></p>
         </div>
-        <div class="col-md-4 pink">
+        <div class="col-md-4">
           <pre></pre>
           <img class="img-fluid" src="edu_icon.png" alt="edu_icon" width="140px" height="140px"/>
           <h2 class="fw-normal">Education</h2>
           <p>List of school that I have gone.</p>
           <p><a class="btn btn-light" href="index_edu.html">View Details</a></p>
         </div>
-        <div class="col-md-4 pink">
+        <div class="col-md-4">
           <pre></pre>
           <img class="img-fluid" src="exp_icon.png" alt="exp_icon" width="140px" height="140px"/>
           <h2 class="fw-normal">Experience</h2>
           <p>My experience in organizations</p>
           <p><a class="btn btn-light" href="index_exp.html">View Details</a></p>
         </div>
+  </div>
 
-        
-        <div class="row">
-          <pre></pre><pre></pre><pre></pre>
-          <div class="col-md-7">
-            <h2 class="fw-bold lh-1">My Birthplace
-            </h2>
-            <p class='bigger'>
-              I was born in Batam, Riau Islands on January 23rd 2005. I lived in Batam
-              for 18 years before moved to Jakarta. Batam is a small island compared to
-              Jakarta, but it is famous because of its near distance with Singapore.<br/>
-            </p>         
-          </div>
-          <div class="col-md-5">
-            <img class='img-fluid' src="batam.jpg" alt="batam" width="500px" height="500px"/>
-          </div>
-        </div>
-        <pre></pre>
-        <hr/>
+  <pre></pre><pre></pre><pre></pre>
 
-        <div class="row">
-          <pre></pre><pre></pre><pre></pre>
-          <div class="col-md-7 order-md-2">
-            <h2 class="fw-bold lh-1">My Address
-            </h2>
-            <p class="bigger" >
-              I live in Grogol, West Jakarta now with my sister. My parents are still in Batam.
-             The reason why my family and I chose Grogol as my place of residence now while 
-             my campus is in Senayan is because the location is quite strategic and the living costs
-             are cheaper than in Senayan.
-              
-            </p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class='img-fluid' src="grogol.jpg" alt="grogol" width="500px" height="500px"/>
-          </div>
-        </div>
-        <pre></pre>
-
-        <h5>
-          <img src="idea.png" alt="fun fact" width="30px"/>
-          Some facts:
-          My hobbies are reading books and playing games, while my favourite lessons are Mathematics.
-        </h5>
-        <pre></pre><pre></pre><pre></pre>
+  <div class="footer">
+    <div class="row">
+      <div class="col-sm-6 tosca text-start">
+        <p>© Copyright 2023 return 0;</p>
+      </div>
+      <div class="col-sm-6 tosca text-end">
+        <a href="https://instagram.com/raputriella?igshid=OGQ5ZDc2ODk2ZA=="><img src="insta.webp" alt="instagram" title="instagram" width="20px"/></a>
+        <a href="https://wa.me/62895629504490"><img src="WhatsApp.webp" alt="whatsapp" title="whatsapp"width="20px"/></a>
+        <a href="https://www.linkedin.com/in/ella-raputri-128270187"><img src="linkedin.png" alt="linkedin" title="linkedin" width="20px"/></a>
+        <a href="https://github.com/Ella-Raputri"><img src="github.png" alt="github" title="github" width="20px"/></a>
+      </div>
     </div>
   </div>
-   
-  
-  <div class="footer">
-    <div class="row text-center text-white">
-      <div class="col-md-4 bpink">
-        <pre></pre>
-        <img class='img-fluid' src="propic.png" alt="Profile Picture" width="60px" height="60px"/>
-        <pre></pre>
-        <h2 class="fw-normal">Ella Raputri</h2>
-        <pre></pre><pre></pre><pre></pre>
-      </div>
-
-      <div class="col-md-8 bpink">
-        <pre></pre><pre></pre>
-        <h2 class="fw-normal">Contact Me:</h2>
-        <p> <a class='text-white' href="https://github.com/Ella-Raputri"> <img src=".\github.png" alt="Github" width="20px"> GitHub</a> 
-          <a class='text-white'href="https://www.linkedin.com/in/ella-raputri-128270187"> <img src=".\linkedin.png" alt="LinkedIn" width="20px"> LinkedIn</a>
-          <a class='text-white'href="https://instagram.com/raputriella?igshid=OGQ5ZDc2ODk2ZA==" class="insta"> <img src=".\insta.webp" alt="Instagram" width="20px"> Instagram</a>
-          <a class='text-white'href="https://wa.me/62895629504490"><img src=.\WhatsApp.webp alt="WhatsApp" width="20px"> WhatsApp</a> 
-          <a class='text-white'href="https://line.me/ti/p/_YCfUPL6D_"> <img src=.\line.png alt="Line" width="20px"> Line</a></p>
-      </p>
-      <pre></pre><pre></pre><pre></pre>
-      </div>
-  </div>
-
-    <script>
-      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-      })
-    </script>
 
 </body>
 </html>

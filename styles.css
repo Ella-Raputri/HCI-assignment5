@@ -1,58 +1,40 @@
-body{
-    background-image: url(brick.png);
-    padding: 10px;
+.topnav{
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 
-.pink{
-    background-color: rgb(247, 136, 168);
-    font-size: 20px;
+.tosca{
+  background-color: #166174;
 }
 
-.lpink{
-    background-color: rgb(250, 176, 197);
-    font-size: 20px;
+a:hover, .nav-active{
+  background-color: #339ab2;
 }
 
-h2{
-    font-family: 'gill sans mt';
-    font-size: 30px;
-    color: rgb(109, 66, 66)
-  }
-
-  h3{
-    font-family: 'corbel';
-    font-size: 20px;
-    color: rgb(141, 86, 86)
-  }
-
-.content11{
-    background-color:rgba(251, 128, 163, 0.138);
-    padding: 10px;
-}
-.bigger{
-    font-size: 25px;
-    font-family: 'cambria';
-}
-.bpink{
-    background-color: rgb(211, 74, 113);
+.body{
+  font-family: Montserrat;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.text-topic{
-    font-family: 'segoe print';
-    color:rgb(109, 66, 66);
+.bg-plblack{
+  background-color: rgba(0, 0, 0, 0.328);
 }
 
-.project {
-    display: inline-flex;
-    flex-direction:row;
-    text-align: center;
+.teko{
+  font-family: 'teko';
 }
 
-@media screen and (max-width:990px){
-  .project img{
-    height: 300px;
-  }
-  .project{
-    flex-direction:column;
-  }
+.grey{
+  background-color: rgba(133, 133, 133, 0.425);
 }
+
+.footer img{
+  margin: 10px;
+}
+
+.nav-item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
