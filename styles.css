@@ -1,0 +1,58 @@
+body{
+    background-image: url(brick.png);
+    padding: 10px;
+}
+
+.pink{
+    background-color: rgb(247, 136, 168);
+    font-size: 20px;
+}
+
+.lpink{
+    background-color: rgb(250, 176, 197);
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'gill sans mt';
+    font-size: 30px;
+    color: rgb(109, 66, 66)
+  }
+
+  h3{
+    font-family: 'corbel';
+    font-size: 20px;
+    color: rgb(141, 86, 86)
+  }
+
+.content11{
+    background-color:rgba(251, 128, 163, 0.138);
+    padding: 10px;
+}
+.bigger{
+    font-size: 25px;
+    font-family: 'cambria';
+}
+.bpink{
+    background-color: rgb(211, 74, 113);
+}
+
+.text-topic{
+    font-family: 'segoe print';
+    color:rgb(109, 66, 66);
+}
+
+.project {
+    display: inline-flex;
+    flex-direction:row;
+    text-align: center;
+}
+
+@media screen and (max-width:990px){
+  .project img{
+    height: 300px;
+  }
+  .project{
+    flex-direction:column;
+  }
+}
